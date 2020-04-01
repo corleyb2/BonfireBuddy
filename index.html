@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonfire Buddy - Plan The Hottest Party in your Backyard!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="indexAsyncAwait.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>Bonfire Buddy</header>
+    <p>Inputting your ZIP code will show you the current weather conditions, as well as nearby local breweries to "stock
+        up" on your favorite
+        hoppy or malty party favors!</p>
+    <h3>Input Your Zip Code</h3>
+    <div class="user-input">
+        <input id="user-zip" type="text" minlength="5" maxlength="9" pattern="[0-9]*" placeholder="Enter ZIP here..." />
+        <button onclick="generateUrl()">Submit Location</button>
+    </div>
+    <h3>Weather Outlook for Your Location</h3>
+    <div class="container" id="render-weather">
+    </div>
+    <h3>Where to Get your Growlers Filled?</h3>
+    <div class="container" id="render-breweries">
+    </div>
+    <h3>Be the Life of the Party!</h3>
+    <select id="trivia-dropdown" class="dropdown">Dropdown
+        <option value="null">Choose from this list...</option>
+        <option value="9">General Knowledge</option>
+        <option value="11">Pop Culture - Film</option>
+        <option value="12">Pop Culture - Music</option>
+        <option value="14">Pop Culture - Television</option>
+        <option value="17">Science & Nature</option>
+        <option value="21">Sports</option>
+        <option value="23">History</option>
+    </select>
+    <button onclick="generateTriviaUrl()">Get Trivia!</button>
+    <div class="container-row" id="render-trivia">
+    </div>
+    <footer>
+        Weather information gathered with OpenWeather &reg; <br />
+        Brewery information courtesy of OpenBrewery DB <br />
+        Trivia questions provided via Open Trivia DB, which is maintained by PIXELTAIL GAMES LLC.
+    </footer>
+</body>
+
+</html>

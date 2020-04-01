@@ -1,0 +1,142 @@
+html {
+  color: white;
+  background-color: slategrey;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url("https://i.pinimg.com/originals/54/56/a1/5456a18ea3a9024b5e7a23328ae1d1d4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 100px;
+}
+header {
+  font-size: 35px;
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+h3 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+button {
+  color: white;
+  background-color: rgb(46, 131, 201);
+  padding: 5px;
+  font-size: 16px;
+  border: 3px white;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  outline: none;
+}
+button:hover {
+  box-shadow: 0 4px 8px 0 black;
+  border-radius: 10px;
+  outline: none;
+}
+.user-input {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
+input {
+  width: 240px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 5x;
+  font-size: 16px;
+  color: black;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(247, 165, 140);
+  border-radius: 10px;
+}
+.card-temp {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 350px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(247, 165, 140);
+  border-radius: 10px;
+}
+p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.brewery-name-class {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: none;
+}
+select {
+  margin-left: 15px;
+  font-size: 16px;
+  border: 3px white;
+  border-radius: 10px;
+  height: 35px;
+}
+.container-trivia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space around;
+}
+.card-trivia {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 80%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(247, 165, 140);
+  border-radius: 10px;
+}
+.trivia-p {
+  text-align: left;
+}
+.trivia-Q-A {
+  text-align: left;
+  font-weight: bold;
+}
+footer {
+  margin-top: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(92, 63, 49);
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 12px;
+}
